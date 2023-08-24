@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'dataset',
     'rest_framework',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -75,6 +76,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# ToDo: hide these info to .env file
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
